@@ -434,10 +434,10 @@ CherrygroveRivalText_Seen:
 	text "<……> <……> <……>"
 
 	para "You got a #MON"
-	line "at the LAB."
+	line "at the LAB?"
 
-	para "What a waste."
-	line "A wimp like you."
+	para "Well I did too"
+	line "...bitch."
 
 	para "<……> <……> <……>"
 

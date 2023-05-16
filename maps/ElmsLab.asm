@@ -941,9 +941,10 @@ ElmDescribesMrPokemonText:
 	line "everywhere and"
 	cont "finds rarities."
 
-	para "Too bad they're"
-	line "just rare and"
-	cont "not very useful…"
+	para "Rumor has it"
+	line "he found an"
+	cont "alternate col-"
+	cont "ored #MON"
 	done
 
 ElmPokeBallText:
