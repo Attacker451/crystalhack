@@ -18,15 +18,10 @@ CreditsScript:
 ; Update the banner.
 	db CREDITS_SCENE, 0 ; Pichu
 
-	db           ROMHACK BY, 1
-	db				     ME, 2
-
-	db CREDITS_WAIT, 6
-
 	db             DIRECTOR, 1
 	db       SATOSHI_TAJIRI, 2
 
-	db CREDITS_WAIT, 6
+	db CREDITS_WAIT, 12
 
 	db           CODIRECTOR, 1
 	db       JUNICHI_MASUDA, 2

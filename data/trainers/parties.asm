@@ -14,7 +14,7 @@ FalknerGroup:
 	; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_MOVES
 	db  11, HOPPIP,    SYNTHESIS, TAIL_WHIP, TACKLE, NO_MOVE
-	db  11, MURKROW,   PURSUIT, WING ATTACK, QUICK_ATTACK, WHIRLWIND
+	db  11, MURKROW,   PURSUIT, WING_ATTACK, QUICK_ATTACK, WHIRLWIND
 	db  12, NATU,      LEER, NIGHT_SHADE, WING_ATTACK, QUICK_ATTACK
 	db  13, GLIGAR,    POISON_STING, SAND_ATTACK, WING_ATTACK, MUD_SLAP
 	db -1 ; end
@@ -343,13 +343,13 @@ ErikaGroup:
 YoungsterGroup:
 	; YOUNGSTER (1)
 	db "JOEY@", TRAINERTYPE_NORMAL
-	db  4, RATTATA
+	db  6, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER (2)
 	db "MIKEY@", TRAINERTYPE_NORMAL
-	db  2, PIDGEY
-	db  4, RATTATA
+	db  4, PIDGEY
+	db  7, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER (3)
@@ -1501,8 +1501,8 @@ SabrinaGroup:
 BugCatcherGroup:
 	; BUG_CATCHER (1)
 	db "DON@", TRAINERTYPE_NORMAL
-	db  3, CATERPIE
-	db  3, CATERPIE
+	db  5, CATERPIE
+	db  7, METAPOD
 	db -1 ; end
 
 	; BUG_CATCHER (2)
@@ -1520,10 +1520,10 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (4)
 	db "WADE@", TRAINERTYPE_NORMAL
-	db  2, CATERPIE
-	db  2, CATERPIE
-	db  3, WEEDLE
-	db  2, CATERPIE
+	db  4, CATERPIE
+	db  4, CATERPIE
+	db  5, WEEDLE
+	db  4, CATERPIE
 	db -1 ; end
 
 	; BUG_CATCHER (5)
@@ -3080,9 +3080,9 @@ ExecutiveFGroup:
 SageGroup:
 	; SAGE (1)
 	db "CHOW@", TRAINERTYPE_NORMAL
-	db  4, BELLSPROUT
-	db  4, BELLSPROUT
-	db  4, BELLSPROUT
+	db  5, BELLSPROUT
+	db  5, BELLSPROUT
+	db  5, BELLSPROUT
 	db -1 ; end
 
 	; SAGE (2)
@@ -3094,7 +3094,7 @@ SageGroup:
 
 	; SAGE (3)
 	db "JIN@", TRAINERTYPE_NORMAL
-	db  6, BELLSPROUT
+	db  7, BELLSPROUT
 	db -1 ; end
 
 	; SAGE (4)
@@ -3126,7 +3126,7 @@ SageGroup:
 
 	; SAGE (8)
 	db "NEAL@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
+	db  8, BELLSPROUT
 	db -1 ; end
 
 	; SAGE (9)
