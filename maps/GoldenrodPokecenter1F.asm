@@ -15,9 +15,8 @@ GoldenrodPokecenter1FNurseScript:
 	jumpstd PokecenterNurseScript
 
 GoldenrodPokecenter1F_GSBallSceneLeft:
-	setval BATTLETOWERACTION_CHECKMOBILEEVENT
-	special BattleTowerAction
-	ifequal MOBILE_EVENT_OBJECT_GS_BALL, .gsball
+	checkevent EVENT_BEAT_ELITE_FOUR
+	iftrue .gsball
 	end
 
 .gsball
@@ -47,9 +46,8 @@ GoldenrodPokecenter1F_GSBallSceneLeft:
 	end
 
 GoldenrodPokecenter1F_GSBallSceneRight:
-	setval BATTLETOWERACTION_CHECKMOBILEEVENT
-	special BattleTowerAction
-	ifequal MOBILE_EVENT_OBJECT_GS_BALL, .gsball
+	checkevent EVENT_BEAT_ELITE_FOUR
+	iftrue .gsball
 	end
 
 .gsball
@@ -718,11 +716,12 @@ GoldenrodPokecenter1FLassText:
 GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
 	text "<PLAYER>, isn't it?"
 
-	para "Congratulations!"
+	para "I have something"
+	line "for you."
 
-	para "As a special deal,"
-	line "a GS BALL has been"
-	cont "sent just for you!"
+	para "ELM has sent you"
+	line "a GS BALL!"
+	cont
 
 	para "Please accept it!"
 	done

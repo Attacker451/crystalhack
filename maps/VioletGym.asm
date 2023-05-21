@@ -177,18 +177,17 @@ FalknerTMMudSlapText:
 	line "act--a TM can be"
 	cont "used only once."
 
-	para "TM31 contains"
-	line "MUD-SLAP."
+	para "TM51 contains"
+	line "WING ATTACK."
 
-	para "It reduces the"
-	line "enemy's accuracy"
+	para "It's a high"
+	line "damage dealing"
 
-	para "while it causes"
-	line "damage."
+	para "flying type"
+	line "move."
 
-	para "In other words, it"
-	line "is both defensive"
-	cont "and offensive."
+	para "It's accuracy is"
+	line "100%."
 	done
 
 FalknerFightDoneText:
